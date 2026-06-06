@@ -1,0 +1,36 @@
+1. Router
+Purpose: A router connects different networks and forwards data packets between them. It allows devices on a local network to access other networks, such as the Internet.
+How it Works: A router examines the destination IP address of incoming data packets and determines the best path to send them. It uses routing tables to make forwarding decisions.
+Real-World Usage: Connecting a home network to the Internet.
+                  Linking branch offices in a company.
+		  Managing traffic between different networks.
+2. Switch
+Purpose: A switch connects multiple devices within the same network and enables efficient communication between them.
+How it Works: A switch learns the MAC addresses of connected devices and forwards data only to the intended destination port instead of sending it to all devices.
+Real-World Usage: Connecting computers, printers, and servers in an office.
+		  Building Local Area Networks (LANs).
+		  Providing high-speed communication in schools and businesses.
+3. Hub
+Purpose: A hub is a basic networking device used to connect multiple devices in a network.
+How it Works: A hub receives data from one device and broadcasts it to all connected devices, regardless of the intended recipient.
+Real-World Usage: Small or old networks.
+		  Educational demonstrations of networking concepts.
+		  Rarely used today because switches are more efficient.
+4. Access Point (AP)
+Purpose: An Access Point provides wireless connectivity to devices and extends a wired network through Wi-Fi.
+How it Works: The access point receives data from the wired network and transmits it wirelessly to devices such as smartphones, laptops, and tablets.
+Real-World Usage: Home Wi-Fi networks.
+                  Office wireless networks.
+                  Public Wi-Fi hotspots in airports, hotels, and cafes.
+5. Firewall
+Purpose: A firewall protects a network from unauthorized access and cyber threats.
+How it Works: It monitors incoming and outgoing network traffic and allows or blocks data based on predefined security rules.
+Real-World Usage: Protecting home and office networks.
+		  Securing company servers.
+		  Preventing unauthorized access from hackers.
+6. Modem
+Purpose: A modem connects a computer or network to an Internet Service Provider (ISP) and enables Internet access.
+How it Works: A modem converts digital signals from computers into signals suitable for transmission over telephone, cable, or fiber lines and converts incoming signals back to digital form.
+Real-World Usage: Home broadband Internet connections.
+		  Business Internet services.
+		  Connecting routers to the ISP network.

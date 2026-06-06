@@ -1,0 +1,45 @@
+$ ip addr
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536
+    inet 127.0.0.1/8 scope host lo
+
+2: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500
+    inet 192.168.1.101/24 brd 192.168.1.255 scope global dynamic wlan0
+
+$ nslookup google.com
+
+Server:         8.8.8.8
+Address:        8.8.8.8#53
+
+Non-authoritative answer:
+Name:   google.com
+Address: 142.250.183.110
+
+$ ping google.com
+
+PING google.com (142.250.183.110) 56(84) bytes of data.
+64 bytes from 142.250.183.110: icmp_seq=1 ttl=118 time=24.1 ms
+64 bytes from 142.250.183.110: icmp_seq=2 ttl=118 time=23.8 ms
+64 bytes from 142.250.183.110: icmp_seq=3 ttl=118 time=24.3 ms
+64 bytes from 142.250.183.110: icmp_seq=4 ttl=118 time=23.9 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss
+
+1. What IP address did DNS return for Google?
+
+The nslookup google.com command returned the IP address:
+
+142.250.183.14 (example; your result may be different because Google uses multiple IP addresses worldwide).
+
+2. Was the ping successful?
+
+Yes, the ping was successful.
+
+The ping google.com command received replies from Google's server, which indicates that the device had internet connectivity and could communicate with Google's network.
+
+3. Why is DNS important before communication begins?
+
+DNS (Domain Name System) is important because it translates human-readable domain names (such as google.com) into IP addresses that computers use to communicate.
+
+Without DNS, users would need to remember and enter IP addresses instead of website names. DNS acts like the internet's phonebook, allowing devices to locate and connect to the correct server before communication starts.
